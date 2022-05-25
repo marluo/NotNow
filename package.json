@@ -1,0 +1,36 @@
+{
+  "name": "notnow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "client": "npm start --prefix client",
+    "server": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "email-reply-parser": "^1.2.2",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.20.8",
+    "mail-listener2-updated": "^0.3.3",
+    "mail-listener5": "^2.0.1",
+    "mail-stripper": "^0.2.1",
+    "mongoose": "^5.8.10",
+    "node-email-reply-parser": "^0.1.1",
+    "nodemailer": "^6.4.2",
+    "nodemon": "^2.0.2",
+    "pg": "^7.18.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
